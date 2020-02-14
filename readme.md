@@ -185,20 +185,37 @@
 | 售后冲突 | 串货处理等 |
 | 出库资料异常 | 无法出库,需要修改收件人信息,或者快递信息 |
 
+
 <table>
     <tr><td><input placeholder="order no"/><button>Seach</button></td></td></tr>
-    <tr><td>
-        <ul>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item 4</li>
-            <li>item 5</li>
-            <li>item 6</li>
-            <li>item 7</li>
-            <li>item 8</li>
-        </ul>
-    </td></td><
+    <tr>
+        <td>502131231313123123</td>
+        <td>审<span>1</span></td>
+        <td>天猫</td>
+        <td>江苏 南京</td>
+        <td>活跃</td>
+    </tr>
+    <tr>
+        <td>502131231313123122</td>
+        <td></td>
+        <td>JIT</td>
+        <td>上海仓</td>
+        <td>--</td>
+    </tr>
+    <tr>
+        <td>34456786868686</td>
+        <td>超卖<span>1</span></td>
+        <td>苏宁</td>
+        <td>********</td>
+        <td>活跃</td>
+    </tr>
+    <tr>
+        <td>198903213</td>
+        <td></td>
+        <td>JITX</td>
+        <td>********</td>
+        <td>关闭</td>
+    </tr>
 </table>
 
 <table>
@@ -217,7 +234,7 @@
             </table>
         </td>
     </tr>
-    <tr><td style="border: 1px solid gray;"><div style="border-radius:50%;display:inline-block;color: red;border: 1px solid black;width:1em;height: 1em;text-align: center;line-height: 1em;">1</div><div style="border-radius:50%;display:inline-block;background-color: red;color: white;width:1em;height: 1em;text-align: center;line-height: 1em;">2</div><div style="border-radius:50%;display:inline-block;color: red;border: 1px solid black;width:1em;height: 1em;text-align: center;line-height: 1em;">3</div><div style="border-radius:50%;display:inline-block;color: red;border: 1px solid black;width:1em;height: 1em;text-align: center;line-height: 1em;">4</div></td></tr>
+    <tr><td style="border: 1px solid gray;"><table><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr></table></td></tr>
     <tr>
         <td>
             <table style="background-color: darkgray;">
