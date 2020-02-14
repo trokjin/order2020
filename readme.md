@@ -201,5 +201,94 @@
     </td></td><
 </table>
 
-
+<table>
+    <tr>
+        <td>
+            <input placeholder="order no"/>
+            <button>Seach</button>
+        </td>
+        <td rowspan="6" style="vertical-align: top;">
+            <table style="background-color: honeydew;">
+                <tr><td>2020-10-11 00:00:00</td><td>系统</td><td>天猫自动导入</td></tr>
+                <tr><td>2020-10-11 00:00:00</td><td>财务</td><td>审核</td></tr>
+                <tr><td>2020-10-11 00:00:00</td><td>系统</td><td>派发至物流园</td></tr>
+                <tr><td>2020-10-11 00:00:00</td><td>物流园</td><td>发货回传<span style="text-decoration:underline;">SF1220234242</span></td></tr>
+                <tr><td>2020-10-11 00:00:00</td><td>物流园</td><td>退回回传<span style="text-decoration:underline;">YT1220234242</span></td></tr>
+            </table>
+        </td>
+    </tr>
+    <tr><td style="border: 1px solid gray;"><div style="border-radius:50%;display:inline-block;color: red;border: 1px solid black;width:1em;height: 1em;text-align: center;line-height: 1em;">1</div><div style="border-radius:50%;display:inline-block;background-color: red;color: white;width:1em;height: 1em;text-align: center;line-height: 1em;">2</div><div style="border-radius:50%;display:inline-block;color: red;border: 1px solid black;width:1em;height: 1em;text-align: center;line-height: 1em;">3</div><div style="border-radius:50%;display:inline-block;color: red;border: 1px solid black;width:1em;height: 1em;text-align: center;line-height: 1em;">4</div></td></tr>
+    <tr>
+        <td>
+            <table style="background-color: darkgray;">
+                <tr><td>1231334335453</td><td>2020-10-10 00:00:00</td></tr>
+                <tr><td>tmall</td><td>导入订单</td></tr>
+                <tr><td><span style="color: aquamarine;">OK</span></td><td>1+1</td></tr>
+                <tr><td>1,200.00</td><td></td></tr>
+                <tr>
+                    <td colspan="2">
+                        <table style="background-color: aliceblue;">
+                            <tr>
+                                <td>B0123131231</td>
+                                <td>8056</td>
+                                <td>165/80</td>
+                                <td>1</td>
+                                <td>1,200.00</td>
+                                <td>100%</td>
+                                <td><span style="border: 1px solid black;color: white;background-color: blueviolet;">换货</span></td>
+                            </tr>
+                            <tr>
+                                <td>iphone<span style="color: azure;background-color: blue;border-radius: 20%;font-size: small;">赠</span></td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td>0.00</td>
+                                <td>0%</td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: azure;">
+            <table >
+                <tr>
+                    <td><span style="text-decoration:underline;">DN010100001</span></td>
+                    <td>1</td>
+                    <td>物流园</td>
+                    <td>OK</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: rgb(178, 233, 250);">
+            <table >
+                <tr>
+                    <td><span style="text-decoration:underline;">SF1220234242</span></td>
+                    <td><span style="border: 1px solid black;color: white;background-color:burlywood;">丢件</span></td>
+                    <td><span style="border: 1px solid black;color: white;background-color:burlywood;">换货</span></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: rgb(226, 212, 250);">
+            <table >
+                <tr>
+                    <td><span style="text-decoration:underline;">YT1220234242</span></td>
+                    <td>B0123131231</td>
+                    <td>8056</td>
+                    <td>165/80</td>
+                    <td>4564643532243242424242</td>
+                    <td><span style="border: 1px solid black;color: white;background-color:burlywood;">丢件</span></td>
+                    <td><span style="border: 1px solid black;color: white;background-color:burlywood;">撤销</span></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
 
